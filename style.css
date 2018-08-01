@@ -1,0 +1,100 @@
+body {
+  color: black;
+  font-family: 'Open Sans', sans-serif;
+  background-color: #cccccc;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 300) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 100px;
+  }
+}
+
+h1,h2 {
+  color:black;
+  text-align: center;
+  font-family: 'Do Hyeon', sans-serif;
+}
+
+.table {
+  text-align: center;
+  color:black;
+
+}
+
+.table h3 {
+  color:red;
+  text-align: center;
+  font-family: 'Do Hyeon', sans-serif;
+}
+
+#profil-button {
+  color: red;
+  text-decoration: none;
+  text-align: center;
+  opacity: 1;
+  border-width:2px;
+}
+
+#profil-button:hover {
+  text-decoration: underline;
+  opacity: 0.5;
+}
+
+#profile-pic {
+  border-radius: 150px;
+  margin: auto;
+    width: 50%;
+    padding: 10px;
+}
+
+.img {
+  width: 80px;
+  height: 100px;
+  border: 3px;
+}
+
+.card {
+  margin-top: 100px;
+  margin-bottom: 100px;
+  margin-right: 400px;
+  margin-left: 400px;
+  padding: 100px;
+  text-align: center;
+  background-color: white;
+  border: 10px solid;
+  border-color: black;
+
+}
+
+
+.social-button > li {
+  color: black;
+  display: inline;
+  margin-right: 60px;
+  font-family: 'Bitter', serif;
+}
+
+.text-film {
+  color: black;
+  text-decoration: none;
+  text-align: center;
+  opacity: 1;
+}
+
+.text-film:hover {
+  opacity: 0.5;
+}
